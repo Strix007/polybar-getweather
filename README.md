@@ -33,8 +33,6 @@ CITY_ID="yourCityCode"
 [module/weather]
 type     = custom/script
 exec     = /path/to/the/script
-label    = %output%
-format   = <label>
 tail     = false
 interval = 100
 ```
