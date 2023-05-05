@@ -20,12 +20,12 @@ This module is easily customizable. All you need to do is modify the shell scrip
 <a id="installation"></a>
 # Installation
 1 - Get your own openweather api key. If you don’t know how to, refer to this [article](https://openweathermap.org/appid).  
-2 - Get the city code of the city whose weather details you want. You can do thasearching the city on openweather.org and copying the digits after `.../city/`.  
+2 - Get the city code of the city whose weather details you want. You can search your city on openweather.org and copying the digits after `.../city/`.  
 3 - Make a plain text file called .env in your home directory.  
 4 - Put the API key and city code in the text file. eg.  
 ```
-API_KEY="yourAPIkey"
-CITY_ID="yourCityCode"
+OPEN_WEATHER_API_KEY="yourAPIkey"
+OPEN_WEATHER_CITY_ID="yourCityCode"
 ```
 5 - Make the script executable by `chmod + x /path/to/the/script`  
 6 - Put this in your polybar config.ini  
